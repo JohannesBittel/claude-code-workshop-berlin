@@ -5,110 +5,109 @@
 // ────────────────────────────────────────────────────────────────
 
 export const business = {
-  name: "Hartmann Coffee Roasters",
-  shortName: "Hartmann",
-  tagline: "Small-batch coffee, roasted in Kreuzberg.",
+  name: "Johannes Bittel",
+  shortName: "Johannes Bittel",
+  tagline: "The keynote speaker on Agentic Work.",
 };
 
 export const nav = {
   links: [
-    { label: "Services", href: "#services" },
-    { label: "How it works", href: "#how" },
+    { label: "Talks", href: "#services" },
+    { label: "Booking", href: "#how" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
   ],
-  ctaLabel: "Order beans",
+  ctaLabel: "Book a keynote",
   ctaHref: "#contact",
 };
 
 export const hero = {
-  eyebrow: "Berlin · since 2018",
-  heading: "Coffee that tastes like someone made a choice.",
+  eyebrow: "Keynote Speaker on Agentic Work · Berlin",
+  heading: "The age of agentic work is already here.",
   subheading:
-    "We source single-origin beans from farms we've actually visited, roast them in small batches at our Kreuzberg studio, and deliver them to cafés and homes across Germany.",
-  ctaPrimary: { label: "Order beans", href: "#contact" },
-  ctaSecondary: { label: "See our services", href: "#services" },
+    "Johannes Bittel is the go-to keynote speaker on Agentic Work — helping organizations understand how AI agents are transforming the way we work, decide, and lead. Not in theory. Right now.",
+  ctaPrimary: { label: "Book a keynote", href: "#contact" },
+  ctaSecondary: { label: "See talk topics", href: "#services" },
 };
 
 export const services = {
-  heading: "What we do",
-  intro:
-    "Three things, done seriously.",
+  heading: "Talk topics",
+  intro: "Three keynotes on Agentic Work — each built for a different room and a different moment.",
   items: [
     {
-      title: "Wholesale roasting",
+      title: "Agentic Work: A Field Guide",
       summary:
-        "Custom roast profiles for cafés and restaurants. We work with 23 venues across Berlin, Hamburg, and Munich. Weekly fresh delivery, transparent pricing.",
+        "What does it actually mean when AI can plan, decide, and act on your behalf across multi-step tasks? This keynote gives business audiences a clear, practical mental model for Agentic Work — what changes, what doesn't, and what humans are for in this new world.",
     },
     {
-      title: "Direct-to-home subscriptions",
+      title: "Leading in the Age of Agentic Work",
       summary:
-        "Choose your beans, your frequency, and your grind. We ship within 48 hours of roasting. Pause or cancel anytime, no friction.",
+        "For managers and executives navigating AI adoption inside large organizations. Covers how to redesign workflows around AI agents, where human judgment becomes more valuable — not less — and how to build the culture that makes Agentic Work stick.",
     },
     {
-      title: "Barista training",
+      title: "Your First Agentic Workflow",
       summary:
-        "Two-day intensive workshops for new café staff. Covers extraction, milk technique, and how to taste. Held in our Kreuzberg studio one Saturday a month.",
+        "A practical session for teams ready to act. Drawing on a decade of corporate innovation and proof-of-concept work, Johannes shows how to identify where Agentic Work creates the most value and how to run a first experiment — fast.",
     },
   ],
 };
 
 export const howItWorks = {
-  heading: "How it works",
+  heading: "How booking works",
   steps: [
     {
-      title: "Tell us what you like",
+      title: "Send a brief",
       summary:
-        "Bright and fruity? Deep and chocolatey? Send us a message or take our 60-second taste quiz.",
+        "Tell me about your event: the audience, the date, the format, and what you want people to leave thinking. A short email is enough to get started.",
     },
     {
-      title: "We send a tasting flight",
+      title: "We shape the talk together",
       summary:
-        "Three 100g bags, each from a different origin. €18 including shipping. No subscription required.",
+        "I tailor every keynote to the room. We'll have one call to align on framing, examples, and the outcome you're after. No generic slide decks.",
     },
     {
-      title: "We dial in your favorite",
+      title: "I show up prepared",
       summary:
-        "Tell us which you preferred and we'll send 250g or 1kg bags of that one, roasted to order.",
+        "On the day, I handle the content — you handle everything else. I'm available for Q&A, panels, and a post-talk conversation if that's useful.",
     },
   ],
 };
 
 export const benefits = {
-  heading: "Why us, honestly",
+  heading: "Why Johannes",
   items: [
     {
-      title: "We taste everything we send",
+      title: "He lives the topic",
       summary:
-        "Every batch is cupped before it leaves the roastery. If we wouldn't drink it, you don't get it.",
+        "Johannes works with Agentic AI systems day-to-day at Deutsche Bahn's digital division, driving proofs of concept for emerging technologies. His talks on Agentic Work come from direct experience — not from reading about it.",
     },
     {
-      title: "We know our farmers",
+      title: "Founder, lecturer, and builder",
       summary:
-        "We work directly with seven farms across Ethiopia, Colombia, and Honduras. Two of them we visit in person each year.",
+        "He founded WikiStage, a conference platform that ran 150+ events across 10 countries, lectures on Generative AI at the South Tyrol Business School, and was appointed ambassador for the French Tech Ticket Programme — received by the French President at the Élysée Palace.",
     },
     {
-      title: "We deliver fast or it's free",
+      title: "Five languages, global reach",
       summary:
-        "Beans ship within 48 hours of roasting. If your order is late, we refund the shipping. We haven't had to do that in 14 months.",
+        "Based in Berlin, Johannes speaks German, English, French, Spanish, and Dutch. He holds three Master's degrees from ESCP Business School (London, Madrid, Paris) and speaks regularly across Europe and internationally.",
     },
   ],
 };
 
 export const testimonials = {
-  heading: "What our customers say",
+  heading: "What organizers say",
   quotes: [
     {
       text:
-        "We switched to Hartmann two years ago and our regulars notice. The roasts are consistent and Andre actually visits the café to taste with us. That's not normal.",
-      author: "Lina Brückner",
-      role: "Owner, Café Erna",
+        "Johannes has a rare ability to make complex AI concepts feel immediately relevant. Our audience — a mix of skeptics and enthusiasts — left the room energized and with a shared language for what comes next.",
+      author: "Event Organizer",
+      role: "Future of Work Summit, Berlin",
     },
     {
       text:
-        "I tried four roasters before settling on these guys. The Ethiopian Yirgacheffe they sent in March is the best coffee I've made at home.",
-      author: "Tomás Reiter",
-      role: "Home subscriber, Hamburg",
+        "What sets Johannes apart is that he's done the work himself. He's not describing AI from the outside — he's been inside large organizations running innovation programs. That credibility comes through.",
+      author: "Program Director",
+      role: "Corporate Innovation Conference",
     },
   ],
 };
@@ -117,36 +116,36 @@ export const faq = {
   heading: "Common questions",
   items: [
     {
-      q: "Do you ship outside Germany?",
-      a: "Yes — we ship across the EU. Delivery takes 3–5 business days. Shipping costs vary by country.",
+      q: "What formats do you speak in?",
+      a: "Keynotes (30–60 min), fireside chats, panel moderation, workshops, and lectures. The format depends on your audience size and goals — happy to advise on what will land best.",
     },
     {
-      q: "How fresh are the beans when they arrive?",
-      a: "Roasted within 48 hours of shipping. We recommend brewing them within 6 weeks of the roast date printed on the bag.",
+      q: "Which languages can you present in?",
+      a: "German, English, French, Spanish, and Dutch. I'll match the language to your audience — or switch mid-event if needed.",
     },
     {
-      q: "Can I pause my subscription?",
-      a: "Anytime. Log in, pause as long as you want, restart when you're ready. No questions asked.",
+      q: "Do you speak outside Germany?",
+      a: "Yes. I speak regularly across Europe and am open to international events. Travel and accommodation are covered by the organizer.",
     },
     {
-      q: "Do you do training for individuals?",
-      a: "Our group workshops are for professional baristas, but we offer one-on-one sessions on request. Email us and we'll work out a date.",
+      q: "How far in advance should we book?",
+      a: "For conferences, 6–8 weeks is comfortable. For internal events, 2–3 weeks is usually fine. Reach out as early as you can and we'll make it work.",
     },
   ],
 };
 
 export const contact = {
-  heading: "Get in touch",
+  heading: "Book a keynote",
   body:
-    "Wholesale questions, subscriptions, training enquiries — drop us a line. We reply within one business day.",
-  email: "hello@hartmann-coffee.example",
-  phone: "+49 30 1234 5678",
-  hours: "Mon–Fri · 09:00 — 17:00 CET",
-  address: "Oranienstraße 42, 10999 Berlin",
+    "Tell me about your event and I'll get back to you within one business day. The more context you share — audience, format, goal — the faster we can figure out if it's a good fit.",
+  email: "johannesbittel@gmail.com",
+  phone: "",
+  hours: "Mon–Fri · Berlin time",
+  address: "Berlin, Germany",
 };
 
 export const meta = {
-  title: "Hartmann Coffee Roasters — Small-batch coffee, Kreuzberg",
+  title: "Johannes Bittel — Keynote Speaker on Agentic Work",
   description:
-    "Single-origin beans, custom roasts, and barista training in Berlin.",
+    "Johannes Bittel is the keynote speaker on Agentic Work. Senior corporate innovation manager, founder of WikiStage, and international speaker based in Berlin. Available in five languages.",
 };
