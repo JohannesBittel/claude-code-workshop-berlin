@@ -9,6 +9,7 @@ const config: Config = {
         paper: "#ffffff",
         muted: "#f3f4f6",
         accent: "#0ea5e9",
+        pink: "#ec4899",
       },
       fontFamily: {
         sans: ["ui-sans-serif", "system-ui", "sans-serif"],
