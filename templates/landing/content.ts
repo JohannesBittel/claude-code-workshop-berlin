@@ -138,7 +138,7 @@ export const contact = {
   heading: "Book a keynote",
   body:
     "Tell me about your event and I'll get back to you within one business day. The more context you share — audience, format, goal — the faster we can figure out if it's a good fit.",
-  email: "johannesbittel@gmail.com",
+  linkedin: "https://www.linkedin.com/in/johannesbittel/",
   phone: "",
   hours: "Mon–Fri · Berlin time",
   address: "Berlin, Germany",

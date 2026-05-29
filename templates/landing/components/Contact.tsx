@@ -13,18 +13,16 @@ export function Contact() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-2">
             <p className="text-sm font-medium uppercase tracking-wider text-ink/50">
-              Email
+              Connect
             </p>
             <a
-              href={`mailto:${contact.email}`}
-              className="block text-lg text-accent hover:underline"
+              href={contact.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-accent text-white rounded-full font-medium hover:opacity-90 transition"
             >
-              {contact.email}
+              Message me on LinkedIn
             </a>
-            <p className="text-sm font-medium uppercase tracking-wider text-ink/50 pt-4">
-              Phone
-            </p>
-            <p className="text-lg">{contact.phone}</p>
           </div>
           <div className="space-y-2">
             <p className="text-sm font-medium uppercase tracking-wider text-ink/50">
