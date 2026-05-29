@@ -9,7 +9,7 @@ export function Hero() {
           <p className="text-sm font-medium uppercase tracking-wider text-accent">
             {hero.eyebrow}
           </p>
-          <h1 className="mt-4 text-5xl md:text-6xl font-bold tracking-tight max-w-3xl text-pink">
+          <h1 className="mt-4 text-5xl md:text-6xl font-bold tracking-tight max-w-3xl text-green-500">
             {hero.heading}
           </h1>
           <p className="mt-6 text-xl md:text-2xl text-ink/70 max-w-2xl leading-relaxed">
